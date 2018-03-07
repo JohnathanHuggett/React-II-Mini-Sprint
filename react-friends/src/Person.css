@@ -1,0 +1,16 @@
+.Person-Box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 29%; 
+    border: 10px outset rgb(65, 64, 64);
+    font-weight: 500;
+    color: grey;
+    width: 35%;
+}
+
+
+.Person-Box:hover {
+    color: gray;
+    transform: scale(2);
+  }
